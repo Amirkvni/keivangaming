@@ -1,0 +1,293 @@
+/* fonts : */
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+.lalezar {
+  font-family: "lalezar";
+}
+/* laptop and pc : */
+@media screen and (min-width: 992px) {
+  /* navbar : */
+  .navbar1 {
+    border-bottom: 1px solid black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .nav-item a {
+    font-size: 14px;
+  }
+  /* navbar */
+  .image-gallery {
+    margin-top: 90px;
+  }
+  .products {
+    margin-top: 90px;
+  }
+  .img-gallery {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 458px;
+    gap: 22px;
+  }
+  .item {
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  .item1 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-image: url(imgs/Rectangle\ 9.png);
+    background-size: cover;
+  }
+  .item2 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    background-image: url(imgs/Rectangle\ 10.png);
+    background-size: cover;
+  }
+  .item3 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url(imgs/Rectangle\ 11.png);
+    background-size: cover;
+  }
+  .item4 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url(imgs/Rectangle\ 12.png);
+    background-size: cover;
+  }
+  /*games : */
+  .row-games {
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    border-radius: 10px;
+    padding: 30px;
+    justify-content: space-around;
+  }
+  .row-games-1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 25%;
+    height: 300px;
+    background-image: url(imgs/Rectangle\ 27.png);
+  }
+  .row-games-2 {
+    width: 65%;
+    height: 300px;
+  }
+  .btn-send1 {
+    margin: 0 auto;
+  }
+  .moratab .col1 {
+    width: 45% !important;
+  }
+}
+
+.see-more a {
+  text-decoration: none;
+  color: black;
+}
+
+/* mobile : */
+@media screen and (max-width: 395px) {
+  /* navnar : */
+  icon-gaming-img {
+    width: 30px;
+    height: 30px;
+  }
+  /* navbar */
+  .image-gallery {
+    padding-top: 40px;
+    height: 350px !important;
+  }
+  .image-gallery img {
+    height: 230px;
+  }
+  .navbar1 {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  .col img {
+    width: 100%;
+    height: auto;
+  }
+  .offcanvas.offcanvas-start {
+    width: 60% !important;
+  }
+  .offcanvas.offcanvas-end {
+    width: 40% !important;
+  }
+  .img-gallery {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 458px;
+    gap: 22px;
+  }
+  #pro-ducts {
+    /* background-color: aqua !important; */
+    border-radius: 5px;
+  }
+  .item {
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  .item1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(imgs/rec9.png);
+    background-size: cover;
+  }
+  .item2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url(imgs/rec10.png);
+    background-size: cover;
+  }
+  .item3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url(imgs/rec11.png);
+    background-size: cover;
+  }
+  .item4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url(imgs/rec12.png);
+    background-size: cover;
+  }
+  .console-img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .new-card {
+    width: 100%;
+  }
+  #prices2 {
+    font-size: 14px;
+  }
+  #tittle-games {
+    font-size: 16px;
+  }
+  .row-games-1 {
+    display: none;
+  }
+  #m-more {
+    visibility: hidden;
+  }
+  .row-games-2 {
+    border-radius: 25px;
+  }
+  .col-news2 {
+    margin: 2px;
+  }
+  .w-100px {
+    width: 100px;
+  }
+  .w-160px {
+    width: 160px;
+  }
+  .btn-send1 {
+    margin-right: 45px;
+  }
+  .fs24px {
+    font-size: 24px;
+  }
+  /* buy sabaf: */
+  .products1 {
+    font-size: 14px;
+  }
+  .price-pro {
+    font-size: 11px;
+  }
+  .fs-12px {
+    font-size: 12px;
+  }
+}
+/* page gaming computers : */
+@media screen and (max-width: 395px) {
+  .fontsize9 {
+    font-size: 9px !important;
+  }
+  .fontsize10 {
+    font-size: 10px !important;
+  }
+  .fontsize12 {
+    font-size: 8px !important;
+  }
+  .filter-section {
+    width: 90px !important;
+    height: 68% !important;
+  }
+  .w-100darsad {
+    width: 100% !important;
+  }
+  .emal {
+    width: 75px !important;
+  }
+  .form-select-sm {
+    padding-top: 1px;
+    padding-bottom: 0 !important;
+    padding-right: 0.5rem;
+    font-size: 2px;
+    border-radius: var(--bs-border-radius-sm);
+  }
+  .jos {
+    width: 54px !important;
+  }
+  .accordion-button::after {
+    margin-right: -6px !important;
+    background-size: 12px !important;
+  }
+  .form-select-sm {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    font-size: 10px !important;
+}
+}
+  @media screen and (width: 1366px) {
+    .moratab .col1 {
+      width: 57% !important;
+    }
+    .nav-link span {
+      font-size: 16px !important;
+    }
+    form .btn-outline-info {
+      font-size: 10px;
+      width: 60px;
+      height: 50px;
+    }
+    form[role="search"] {
+      width: 238px;
+    }
+  }
+  .pricing-box:hover {
+    transform: scale(1.05);
+  }
+  .pricing-box {
+    transition: all 0.3s;
+  }
+  .img-g {
+    width: 100%;
+    height: 350px;
+  }
+  .col-news1,
+  .col-news2 {
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+  }
+  #consoles .col-4:hover {
+    transform: scale(1.05);
+  }
+  #consoles .col-4 {
+    transition: all 0.3s;
+  }
+  .col_pro:hover {
+    transform: scale(1.05);
+  }
+  .col_pro {
+    transition: all 0.3s;
+  }
+

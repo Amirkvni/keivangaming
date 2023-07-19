@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/?size=512&id=rCMgUHUAhuWi&format=png"
+    />
+    <!-- bootstrap link: -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-PJsj/BTMqILvmcej7ulplguok8ag4xFTPryRq8xevL7eBYSmpXKcbNVuy+P0RMgq"
+      crossorigin="anonymous"
+    />
+    <!-- font awsome link: -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- carousel : -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <title>Keivan gaming</title>
+  </head>
+  <body>
+    <!-- navbar : -->
+    <nav
+      class="navbar bg-body-light navbar-expand-lg navbar1"
+      data-bs-theme="light"
+    >
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler navbar-hamberger-btn fs-5"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img src="imgs/icons8-game-60.png" width="40px" height="40px" /><span
+            class="lalezar fs-5"
+            >کیوان گیمینگ</span
+          ></a
+        >
+        <div class="d-flex order-2 mx-lg-3 align-items-center">
+      <div><a class="btn btn-outline-danger mx-lg-2 mx-1" href="login.html"><i class="fa-solid fa-right-to-bracket"></i>ورود</a></div>
+      <div><a class="btn btn-outline-danger mx-lg-2"data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"><i class="fa-solid fa-cart-shopping"></i>خرید</a></div></div>
+       
+      <div
+          class="offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-start flex-grow-1 navbar-nav1"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><i class="fa-solid fa-house"></i
+                  ><span class="lalezar fs-5">صفحه اصلی</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="gaming-computers.html"
+                  ><i class="fa-solid fa-computer"></i
+                  ><span class="lalezar fs-5">کامپیوترهای گیمینگ</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="tajhizat.html"
+                  ><i class="fa-solid fa-headset"></i
+                  ><span class="lalezar fs-5">تجهیزات گیمینگ</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="console.html"
+                  ><i class="fa-solid fa-gamepad"></i
+                  ><span class="lalezar fs-5">کنسول و لوازم جانبی</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="laptop.html"
+                  ><i class="fa-solid fa-laptop"></i
+                  ><span class="lalezar fs-5">لپ تاپ و لوازم جانبی</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about us.html"
+                  ><i class="fa-solid fa-phone-flip"></i
+                  ><span class="lalezar fs-5">درباره ما</span></a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="جستجو"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-info" type="submit">جستجو</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- buy btn -->
+    <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">سبد خرید</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+<div class="row-product d-flex border-bottom my-3" style="width: 100%; height: 70px;">
+  <div class="col-product-right" style="width: 30%; height: 70px;"><img src="imgs/1 1.png" class="img-fluid"></div>
+  <div class="col-product-left" style="width: 70%; height: 100%;">
+  <div class="d-flex flex-column">
+    <div>
+      <h5 class="lalezar products1">موس گیمینگ</h5>
+    </div>
+    <div class="d-flex justify-content-between">
+      <div class="text-success price-pro">1,100,110تومان </div>
+      <div><i class="fa-solid fa-xmark"></i></div>
+
+    </div>
+  </div>
+  </div>
+</div>
+<div class="row-product d-flex border-bottom my-3" style="width: 100%; height: 70px;">
+  <div class="col-product-right" style="width: 30%; height: 70px;"><img src="imgs/1 1.png" class="img-fluid"></div>
+  <div class="col-product-left" style="width: 70%; height: 100%;">
+  <div class="d-flex flex-column">
+    <div>
+      <h5 class="lalezar products1">موس گیمینگ</h5>
+    </div>
+    <div class="d-flex justify-content-between">
+      <div class="text-success price-pro">1,100,110تومان </div>
+      <div><i class="fa-solid fa-xmark"></i></div>
+
+    </div>
+  </div>
+  </div>
+</div>
+<div class="row-spend d-flex justify-content-between border text-bg-dark fs-12px" style="width: 100%;">
+  <div class="lalezar ">قیمت کل:</div>
+  <div class=>۵,۰۰۰,۰۰۰تومان</div>
+</div>
+<div class="text-center mt-2">
+  <a href="#" class="btn btn-dark justify-content-center align-items-center">تسویه حساب</a>
+</div>
+      </div>
+    </div>
+    <!-- buy btn -->
+    <!-- navbar  -->
+    <!-- gallery: -->
+    <section class="image-gallery">
+      <div class="container-fluid">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel carousel-dark slide"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imgs/pic1.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="imgs/pic2.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="imgs/pic3.png" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="imgs/pic4.png" class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- gallery -->
+    <!-- products : -->
+    <section class="products">
+      <div class="container">
+        <div class="row row-cols-2">
+          <div class="col col_pro"><a href="gaming-computers.html"><img src="imgs/Rectangle 5.png"/></a></div>
+          <div class="col col_pro"><a href="tajhizat.html"><img src="imgs/Rectangle 6.png"/></a></div>
+        </div>
+        <div class="row row-cols-2 mt-1">
+          <div class="col col_pro"><a href="monitors.html"><img src="imgs/manitors.jpg"/></a></div>
+          <div class="col col_pro"><a href="graphic carts.html"><img src="imgs/graphics.jpg"/></a></div>
+        </div>
+      </div>
+    </section>
+    <!-- products  -->
+    <!-- new products : -->
+    <section id="see-more">
+      <div class="container">
+        <div class="d-flex justify-content-between mt-5" id="pro-ducts">
+          <div><h3 class="lalezar">جدیدترین محصولات</h3></div>
+          <div class="see-more">
+            <a href="new-products.html"
+              ><span class="lalezar">نمایش بیشتر</span
+              ><i class="fa-solid fa-angle-left"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <section id="se-more-products" class="mt-3">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="card">
+              <img src="imgs/m1.png" class="card-img-top" />
+              <div class="card-body">
+                <h6 class="card-title" style="font-size: 14px;">هدست گیمینگ ریزر مدل Kraken X Lite</h6>
+                <p class="card-text">1,150,000هزارتومان</p>
+                <a href="#" class="btn btn-primary btn-sm">خرید</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="imgs/m2.jpg" class="card-img-top" />
+              <div class="card-body">
+                <h6 class="card-title" style="font-size: 14px;">هدست گیمینگ ریزر مدل Kraken X Lite</h6>
+                <p class="card-text">1,150,000هزارتومان</p>
+                <a href="#" class="btn btn-primary btn-sm">خرید</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="imgs/m3.jpg" class="card-img-top" />
+              <div class="card-body">
+                <h6 class="card-title" style="font-size: 14px;">هدست گیمینگ ریزر مدل Kraken X Lite</h6>
+                <p class="card-text">1,150,000هزارتومان</p>
+                <a href="#" class="btn btn-primary btn-sm">خرید</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="imgs/m4.png" class="card-img-top" />
+              <div class="card-body">
+                <h6 class="card-title" style="font-size: 14px;">هدست گیمینگ ریزر مدل Kraken X Lite</h6>
+                <p class="card-text">1,150,000هزارتومان</p>
+                <a href="#" class="btn btn-primary btn-sm">خرید</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="imgs/m5.png" class="card-img-top" />
+              <div class="card-body">
+                <h6 class="card-title" style="font-size: 14px;">هدست گیمینگ ریزر مدل Kraken X Lite</h6>
+                <p class="card-text">1,150,000هزارتومان</p>
+                <a href="#" class="btn btn-primary btn-sm">خرید</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="imgs/m6.jpg" class="card-img-top" />
+              <div class="card-body">
+                <h6 class="card-title" style="font-size: 14px;">هدست گیمینگ ریزر مدل Kraken X Lite</h6>
+                <p class="card-text">1,150,000هزارتومان</p>
+                <a href="#" class="btn btn-primary btn-sm">خرید</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="imgs/m7.jpg" class="card-img-top" />
+              <div class="card-body">
+                <h6 class="card-title" style="font-size: 14px;">هدست گیمینگ ریزر مدل Kraken X Lite</h6>
+                <p class="card-text">1,150,000هزارتومان</p>
+                <a href="#" class="btn btn-primary btn-sm">خرید</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="imgs/m8.png" class="card-img-top" />
+              <div class="card-body">
+                <h6 class="card-title" style="font-size: 14px;">هدست گیمینگ ریزر مدل Kraken X Lite</h6>
+                <p class="card-text">1,150,000هزارتومان</p>
+                <a href="#" class="btn btn-primary btn-sm">خرید</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- new products  -->
+    <!-- gaming computers : -->
+    <section id="see-more">
+      <div class="container">
+        <div class="d-flex justify-content-between mt-5" id="pro-ducts">
+          <div><h3 class="lalezar">کامپیوترهای گیمینگ</h3></div>
+          <div class="see-more">
+            <a href="gaming-computers.html"
+              ><span class="lalezar">نمایش بیشتر</span
+              ><i class="fa-solid fa-angle-left"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="se-more-products" class="mt-3">
+      <div class="container">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="card">
+              <img src="imgs/111.png" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title"id="prices">سیستم گیمینگ کوئین
+                </h5>
+                <p class="card-text">159,309,000 تومان
+                </p>
+                <a href="#" class="btn btn-primary">خرید</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="imgs/222.png" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title"id="prices">سیستم گیمینگ آلتیمیت
+                </h5>
+                <p class="card-text" >153,048,000 تومان
+                </p>
+                <a href="#" class="btn btn-primary">خرید</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="imgs/333.png" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title" id="prices">سیستم رندرینگ هکسا
+                </h5>
+                <p class="card-text">112,309,000 تومان
+                </p>
+                <a href="#" class="btn btn-primary">خرید</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="imgs/333.png" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title" id="prices">سیستم گیمینگ فانتوم
+                </h5>
+                <p class="card-text">90,270,000 تومان</p>
+                <a href="#" class="btn btn-primary">خرید</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="imgs/222.png" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title"id="prices">سیستم گیمینگ جگوار
+                </h5>
+                <p class="card-text">58,430,000 تومان
+                </p>
+                <a href="#" class="btn btn-primary">خرید</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="imgs/111.png" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title"id="prices">سیستم گیمینگ ایکس
+                </h5>
+                <p class="card-text">47,214,000 تومان
+                </p>
+                <a href="#" class="btn btn-primary">خرید</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="imgs/222.png" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title"id="prices">سیستم رندرینگ ری
+                </h5>
+                <p class="card-text">49,599,000 تومان
+                </p>
+                <a href="#" class="btn btn-primary">خرید</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <img src="imgs/333.png" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title"id="prices">سیستم رندرینگ فارم
+                </h5>
+                <p class="card-text">257,908,000 تومان
+                </p>
+                <a href="#" class="btn btn-primary">خرید</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="card">
+              <img src="imgs/111.png" class="card-img-top" />
+              <div class="card-body">
+                <h5 class="card-title" id="prices">سیستم گیمینگ گادمنس
+                </h5>
+                <p class="card-text">45,094,000 تومان
+                </p>
+                <a href="#" class="btn btn-primary">خرید</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- gaming computers -->
+    <!-- Gaming equipments : -->
+    <section id="see-more">
+      <div class="container">
+        <div class="d-flex justify-content-between mt-5"id="pro-ducts">
+          <div><h3 class="lalezar">تجهیزات گیمینگ</h3></div>
+          <div class="see-more">
+            <a href="tajhizat.html"
+              ><span class="lalezar">نمایش بیشتر</span
+              ><i class="fa-solid fa-angle-left"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="gaming-equipments" class="mt-4">
+      <div class="container">
+<div class="img-gallery">
+  <div class="item item1" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></div>
+  <div class="item item2"  style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></div>
+  <div class="item item3" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></div>
+  <div class="item item4" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;"></div>
+</div>
+    
+   </div>
+      </div>
+    </section>
+    <!-- Gaming equipments  -->
+<!-- consoles : -->
+<section class="mt-5" id="pro-ducts">
+  <div class="container">
+    <div class="d-flex justify-content-between mt-5">
+      <div><h5 class="lalezar">کنسول های گیمینگ</h5></div>
+      <div class="see-more">
+        <a href="console.html"
+          ><span class="lalezar">نمایش بیشتر</span
+          ><i class="fa-solid fa-angle-left"></i
+        ></a>
+      </div>
+    </div>
+  </div>
+</section>
+<div id="consoles" class="mt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-4"><a href="console.html"><img src="imgs/Rectangle 13.png"class="console-img"></a></div>
+      <div class="col-4"><a href="console.html"><img src="imgs/Rectangle 14.png"class="console-img"></a></div>
+      <div class="col-4"><a href="console.html"><img src="imgs/Rectangle 14.png"class="console-img"></a></div>
+    </div>
+  </div>
+  </div>
+</section>
+<!-- consoles-->
+<!-- mobiles : -->
+<section>
+  <section class="mt-5" id="pro-ducts">
+    <div class="container">
+      <div class="d-flex justify-content-between mt-5">
+        <div><h5 class="lalezar">موبایل ها</h5></div>
+        <div class="see-more">
+          <a href="#"
+            ><span class="lalezar">نمایش بیشتر</span
+            ><i class="fa-solid fa-angle-left"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+<div id="mobiles" class="mt-3">
+  <div class="container">
+    <div class="row" >
+      <div class="col-12 col-sm-6 my-2"><a href="samsung-mobile.html"><img src="imgs/Rectangle 16.png"style="width:100%;"></a></div>
+      <div class="col-12 col-sm-6 my-2"><a href="samsung-mobile.html"><img src="imgs/Rectangle 17.png"style="width:100%;"></a></div>
+    </div>
+    <div class="row">
+      <div class=" col-12 col-sm-6 my-2"><a href="samsung-mobile.html"><img src="imgs/Rectangle 18.png"style="width:100%;"></a></div>
+      <div class=" col-12 col-sm-6 my-2"><a href="samsung-mobile.html"><img src="imgs/Rectangle 19.png"style="width:100%;"></a></div>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-6 mt-3"><a href="samsung-mobile.html"><img src="imgs/Rectangle 22.png"style="width:100%;"></a></div>
+      <div class="col-sm-3 col-6 mt-3"><a href="samsung-mobile.html"><img src="imgs/Rectangle 23.png"style="width:100%;"></a></div>
+      <div class="col-sm-3 col-6 mt-3"><a href="samsung-mobile.html"><img src="imgs/Rectangle 24.png"style="width:100%;"></a></div>
+      <div class="col-sm-3 col-6 mt-3"><a href="samsung-mobile.html"><img src="imgs/Rectangle 25.png"style="width:100%;"></a></div>
+    </div>
+  </div>
+</div>
+<!-- mobiles -->
+<!-- games : -->
+  <section class="mt-5"id="pro-ducts">
+    <div class="container">
+      <div class="d-flex justify-content-between mt-5">
+        <div><h5 class="lalezar" id="tittle-games">بازی های کامپیوتر و کنسول های خانگی</h5></div>
+        <div class="see-more">
+          <a href="videosgames.html"
+            ><span class="lalezar">نمایش بیشتر</span
+            ><i class="fa-solid fa-angle-left"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="py-5 px-3">
+    <div class="container">
+      <div
+        class="row text-center row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-4"
+      >
+        <div class="col pricing-box">
+      
+          <div class="card shadow">
+            <div class="card-body">
+              <h4 class="fw-bold my-3">بازی های استراتژیک</h4>
+              
+              <img src="imgs/Park-Beyond-Logo.jpg" class="img-g"/>
+              <ul class="list-group list-group-flush mt-4">
+                <li
+                  class="list-group-item d-flex align-items-center justify-content-center"
+                >
+                  <i class="bi bi-alarm ms-4"></i>
+                  <span>کامپیوتر</span>
+                </li>
+                <li
+                  class="list-group-item d-flex align-items-center justify-content-center"
+                >
+                  <i
+                    class="bi bi-search ms-4"
+                    style="font-size: 20px; line-height: 0"
+                  ></i>
+                  <span>PS4,PS5</span>
+                </li>
+                <li
+                  class="list-group-item d-flex align-items-center justify-content-center"
+                >
+                  <i class="bi bi-arrow-bar-down ms-4"></i>
+                  <span>XBOX</span>
+                </li>
+              </ul>
+              <a class="btn btn-outline-primary my-3 position-relative"href="games.html">مشاهده بازی ها
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-primary">
+                ٪45تخفیف
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col pricing-box">
+          <div class="card shadow">
+            <div class="card-body">
+              <h4 class="fw-bold my-3">بازی های اکشن</h4>
+              
+              <img src="imgs/Assassins-Creed-Valhalla-logo-min.jpg" class="img-g" />
+              <ul class="list-group list-group-flush mt-4">
+                <li
+                  class="list-group-item d-flex align-items-center justify-content-center"
+                >
+                  <i class="bi bi-alarm ms-4"></i>
+                  <span>کامپیوتر</span>
+                </li>
+                <li
+                  class="list-group-item d-flex align-items-center justify-content-center"
+                >
+                  <i
+                    class="bi bi-search ms-4"
+                    style="font-size: 20px; line-height: 0"
+                  ></i>
+                  <span>PS4,PS5</span>
+                </li>
+                <li
+                  class="list-group-item d-flex align-items-center justify-content-center"
+                >
+                  <i class="bi bi-arrow-bar-down ms-4"></i>
+                  <span>XBOX</span>
+                </li>
+              </ul>
+              <a class="btn btn-outline-success my-3 position-relative"href="games.html">مشاهده بازی ها
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
+                  ٪65 تخفیف
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col pricing-box">
+          <div class="card shadow">
+            <div class="card-body">
+              <h4 class="fw-bold my-3">بازی های فکری</h4>
+              
+              <img src="imgs/Tin-Hearts-Logo.jpg" class="img-g" />
+              <ul class="list-group list-group-flush mt-4">
+                <li
+                  class="list-group-item d-flex align-items-center justify-content-center"
+                >
+                  <i class="bi bi-alarm ms-4"></i>
+                  <span>کامپیوتر</span>
+                </li>
+                <li
+                  class="list-group-item d-flex align-items-center justify-content-center"
+                >
+                  <i
+                    class="bi bi-search ms-4"
+                    style="font-size: 20px; line-height: 0"
+                  ></i>
+                  <span>PS4,PS5</span>
+                </li>
+                <li
+                  class="list-group-item d-flex align-items-center justify-content-center"
+                >
+                  <i class="bi bi-arrow-bar-down ms-4"></i>
+                  <span>XBOX</span>
+                </li>
+              </ul>
+              <a class="btn btn-outline-secondary my-3 position-relative"href="games.html">مشاهده بازی ها
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary">
+               ٪15تخفیف
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col pricing-box">
+          <div class="card shadow">
+            <div class="card-body">
+              <h4 class="fw-bold my-3">بازی های ورزشی</h4>
+              
+              <img src="imgs/EA-Sports-FC-24-logo-min-1.jpg" class="img-g" />
+              <ul class="list-group list-group-flush mt-4">
+                <li
+                  class="list-group-item d-flex align-items-center justify-content-center"
+                >
+                  <i class="bi bi-alarm ms-4"></i>
+                  <span>کامپیوتر</span>
+                </li>
+                <li
+                  class="list-group-item d-flex align-items-center justify-content-center"
+                >
+                  <i
+                    class="bi bi-search ms-4"
+                    style="font-size: 20px; line-height: 0"
+                  ></i>
+                  <span>PS4,PS5</span>
+                </li>
+                <li
+                  class="list-group-item d-flex align-items-center justify-content-center"
+                >
+                  <i class="bi bi-arrow-bar-down ms-4"></i>
+                  <span>XBOX</span>
+                </li>
+              </ul>
+              <a class="btn btn-outline-warning my-3 position-relative" href="games.html">مشاهده بازی ها
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning">
+                  ٪25تخفیف
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- games -->
+<!-- news : -->
+<div class="container">
+  <h3 class="lalezar text-center mt-5">آخرین اخبار وب سایت ما</h3>
+  <section id="news" class="mt-4">
+    <div class="container">
+     <div class="row-news" style="display: flex; justify-content: space-around; align-items: center;">
+      <div class="col-news1"><div class="card new-card">
+        <img src="imgs/Garmin-Smart-Watches-Features-610x380 1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          
+          <p class="card-text">۱۴ علامت که نشان می‌دهد آن‌قدر که فکر می‌کنید سالم نیستید          </p>
+          <a href="news2.html" class="btn btn-primary">ادامه مطلب</a>
+        </div>
+      </div></div>
+      <div class="col-news2"><div class="card new-card">
+        <img src="imgs/04 1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">بررسی پاور استیشن انکر PowerHouse 521؛ غول دنیای پاوربانک‌ها!
+          </p>
+          <a href="news1.html" class="btn btn-primary">ادامه مطلب</a>
+        </div>
+      </div></div>
+     </div>
+    </div>
+  </section>
+</div>
+<!-- news  -->
+<!-- footer : -->
+<section id="footer" class=" text-light mt-5" style="background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+">
+  <div class="container-fluid ">
+    <div class="container">
+      <div class="d-flex">
+        <div style="width: 60%;" class="mt-4">
+        <h1 class="lalezar">تماس با ما</h1>
+        <p class="lalezar">پیامتو برام ارسال کن :</p>
+        <input type="text" placeholder="نام" style="display: block;" class="mt-2 w-100px">
+        <input type="text" placeholder=" نام خانوادگی" style="display: block;" class="mt-2 w-100px" >
+<textarea name="" id="" cols="47" rows="8" class="mt-2 w-160px"></textarea>
+        <button class="btn btn-light btn-send1" style="display: block;">ارسال</button>
+        </div>
+        <div style="width: 30%;" class="mt-4">
+        <h1 class="lalezar fs24px">راه های ارتباطی با ما</h1>
+        <div class="row-socials d-flex  justify-content-around fs-3 mx-auto" style="width: 70%;">
+          <div class="col-insta"><a href="https://www.instagram.com/amirkvni/" style="text-decoration: none;color: white;"><i class="fa-brands fa-instagram"></i></a></div>
+          <div class="col-whatsapp"><a href="#"style="text-decoration: none;color: white;"><i class="fa-brands fa-whatsapp"></i></a></div>
+          <div class="col-telegram"><a href="https://t.me/amirkvni"style="text-decoration: none;color: white;"><i class="fa-brands fa-telegram"></i></a></div>
+        </div>
+        <div class="row-phone d-flex align-items-center mx-auto justify-content-around" style="width: 45%;">
+          <div>
+        <i class="fa-solid fa-phone-flip fs-4"></i></div>
+        <div>
+          <p class="fs-5 fw-bold ">09162035987</p>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+
+    <!-- bootstrap js : -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- carousel : -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel();
+      });
+    </script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        center:true,
+        rtl: true,
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots:false,
+        responsive: { 0: { items: 2 }, 600: { items: 3 }, 1000: { items: 4 } },
+      });
+    </script>
+  </body>
+</html>

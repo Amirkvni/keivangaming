@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/?size=512&id=rCMgUHUAhuWi&format=png"
+    />
+    <!-- bootstrap link: -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-PJsj/BTMqILvmcej7ulplguok8ag4xFTPryRq8xevL7eBYSmpXKcbNVuy+P0RMgq"
+      crossorigin="anonymous"
+    />
+    <!-- font awsome link: -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- carousel : -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <title>درباره ما</title>
+  </head>
+  <body>
+       <!-- navbar : -->
+       <nav
+       class="navbar bg-body-light navbar-expand-lg navbar1"
+       data-bs-theme="light"
+     >
+       <div class="container-fluid">
+         <button
+           class="navbar-toggler navbar-hamberger-btn fs-5"
+           type="button"
+           data-bs-toggle="offcanvas"
+           data-bs-target="#offcanvasNavbar"
+           aria-controls="offcanvasNavbar"
+           aria-label="Toggle navigation"
+         >
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <a class="navbar-brand" href="index.html">
+           <img src="imgs/icons8-game-60.png" width="40px" height="40px" /><span
+             class="lalezar fs-5"
+             >کیوان گیمینگ</span
+           ></a
+         >
+         <div class="d-flex order-2 mx-lg-3 align-items-center">
+       <div><a class="btn btn-outline-danger mx-lg-2 mx-1" href="login.html"><i class="fa-solid fa-right-to-bracket"></i>ورود</a></div>
+       <div><a class="btn btn-outline-danger mx-lg-2"data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"><i class="fa-solid fa-cart-shopping"></i>خرید</a></div></div>
+        
+       <div
+           class="offcanvas offcanvas-start"
+           tabindex="-1"
+           id="offcanvasNavbar"
+           aria-labelledby="offcanvasNavbarLabel"
+         >
+           <div class="offcanvas-header">
+             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+             <button
+               type="button"
+               class="btn-close"
+               data-bs-dismiss="offcanvas"
+               aria-label="Close"
+             ></button>
+           </div>
+           <div class="offcanvas-body">
+             <ul
+               class="navbar-nav justify-content-start flex-grow-1 navbar-nav1"
+             >
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="#"
+                   ><i class="fa-solid fa-house"></i
+                   ><span class="lalezar fs-5">صفحه اصلی</span></a
+                 >
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link active" href="gaming-computers.html"
+                   ><i class="fa-solid fa-computer"></i
+                   ><span class="lalezar fs-5">کامپیوترهای گیمینگ</span></a
+                 >
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link active" href="tajhizat.html"
+                   ><i class="fa-solid fa-headset"></i
+                   ><span class="lalezar fs-5">تجهیزات گیمینگ</span></a
+                 >
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="console.html"
+                   ><i class="fa-solid fa-gamepad"></i
+                   ><span class="lalezar fs-5">کنسول و لوازم جانبی</span></a
+                 >
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="laptop.html"
+                   ><i class="fa-solid fa-laptop"></i
+                   ><span class="lalezar fs-5">لپ تاپ و لوازم جانبی</span></a
+                 >
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="about us.html"
+                   ><i class="fa-solid fa-phone-flip"></i
+                   ><span class="lalezar fs-5">درباره ما</span></a
+                 >
+               </li>
+             </ul>
+             <form class="d-flex" role="search">
+               <input
+                 class="form-control me-2"
+                 type="search"
+                 placeholder="جستجو"
+                 aria-label="Search"
+               />
+               <button class="btn btn-outline-info" type="submit">جستجو</button>
+             </form>
+           </div>
+         </div>
+       </div>
+     </nav>
+     <!-- buy btn -->
+     <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+       <div class="offcanvas-header">
+         <h5 class="offcanvas-title" id="offcanvasScrollingLabel">سبد خرید</h5>
+         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+       </div>
+       <div class="offcanvas-body">
+ <div class="row-product d-flex border-bottom my-3" style="width: 100%; height: 70px;">
+   <div class="col-product-right" style="width: 30%; height: 70px;"><img src="imgs/1 1.png" class="img-fluid"></div>
+   <div class="col-product-left" style="width: 70%; height: 100%;">
+   <div class="d-flex flex-column">
+     <div>
+       <h5 class="lalezar products1">موس گیمینگ</h5>
+     </div>
+     <div class="d-flex justify-content-between">
+       <div class="text-success price-pro">1,100,110تومان </div>
+       <div><i class="fa-solid fa-xmark"></i></div>
+ 
+     </div>
+   </div>
+   </div>
+ </div>
+ <div class="row-product d-flex border-bottom my-3" style="width: 100%; height: 70px;">
+   <div class="col-product-right" style="width: 30%; height: 70px;"><img src="imgs/1 1.png" class="img-fluid"></div>
+   <div class="col-product-left" style="width: 70%; height: 100%;">
+   <div class="d-flex flex-column">
+     <div>
+       <h5 class="lalezar products1">موس گیمینگ</h5>
+     </div>
+     <div class="d-flex justify-content-between">
+       <div class="text-success price-pro">1,100,110تومان </div>
+       <div><i class="fa-solid fa-xmark"></i></div>
+ 
+     </div>
+   </div>
+   </div>
+ </div>
+ <div class="row-spend d-flex justify-content-between border text-bg-dark fs-12px" style="width: 100%;">
+   <div class="lalezar ">قیمت کل:</div>
+   <div class=>۵,۰۰۰,۰۰۰تومان</div>
+ </div>
+ <div class="text-center mt-2">
+   <a href="#" class="btn btn-dark justify-content-center align-items-center">تسویه حساب</a>
+ </div>
+       </div>
+     </div>
+     <!-- buy btn -->
+     <!-- navbar  -->
+    <!-- header: -->
+    <section id="courses" class=" bg-light mt-3">
+        <div class="container">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md order-last order-sm-first">
+              <h2 class="text-prmary">
+                درباره ما
+              </h2>
+              <p class="lead">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+              </p>
+            </div>
+            <div class="col-md" id="intro-programming">
+              <img
+              src="imgs/ourwork1.jpg"
+              class="img-fluid rounded-5 py-2 bg-light" style="height: 350px;">
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- header -->
+  <!-- features : -->
+  <section id="Readable">
+    <div class="container my-5">
+      <h1 class="text-center lalezar" id="rdable">خدمات سایت ما</h1>
+    </div>
+  </section>
+  <section id="key-success" class="bg-light mt-3">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md" id="intro-programming">
+          <img
+          src="imgs/ourwork2.svg"
+          class="img-fluid rounded-5 py-2 max-width" style="height: 350px;">
+        </div>
+        <div class="col-md">
+          <h2 class="text-prmary feature_left_title lalezar">
+            خرید آسان
+          </h2>
+          <p class="lead">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="courses" class="bg-light mt-3">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md order-last order-sm-first">
+          <h2 class="text-prmary">
+            پشتیانی ۲۴ ساعته
+          </h2>
+          <p class="lead">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+          </p>
+        </div>
+        <div class="col-md" id="intro-programming">
+          <img
+          src="imgs/ourwork3.svg"
+          class="img-fluid rounded-5 py-2" style="height: 350px;">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="Web-programming" class="bg-light mt-3">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md" id="intro-programming">
+          <img
+            src="imgs/ourwork4.svg"
+            class="img-fluid rounded-5 py-2 max-width"
+            style="height: 400px"
+          />
+        </div>
+        <div class="col-md">
+          <h2 class="text-prmary">بهترین کیفیت</h2>
+          <p class="lead">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="calligraphy" class="bg-light mt-3">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md order-last order-sm-first">
+          <h2 class="text-prmary">
+            بروزرسانی همیشگی
+          </h2>
+          <p class="lead">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+          </p>
+        </div>
+        <div class="col-md" id="intro-programming">
+          <img
+          src="imgs/ourwork5.svg"
+          class="img-fluid rounded-5 py-2"  style="height: 350px;">
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- features -->
+    <!-- counters : -->
+    <section class="py-5 px-3">
+        <div class="container">
+          <h2 class="lalezar text-center">آمارها باعث افتخار ما هستند</h2>
+          <p class="text-center py-3">نگاهی به امار کلی وبسایت</p>
+          <div
+            class="row fs-1 text-center row-cols-1 gy-4 row-cols-sm-2 row-cols-lg-4"
+          >
+            <div class="col">
+              <div class="shadow p-3 rounded-3">
+                <span
+                  class="purecounter"
+                  data-purecounter-start="0"
+                  data-purecounter-end="999"
+                  >0</span
+                >
+                <h4>کاربر</h4>
+              </div>
+            </div>
+            <div class="col">
+              <div class="shadow p-3 rounded-3">
+                <span
+                  class="purecounter"
+                  data-purecounter-start="0"
+                  data-purecounter-end="102"
+                  >0</span
+                >
+                <h4>محصول</h4>
+              </div>
+            </div>
+            <div class="col">
+              <div class="shadow p-3 rounded-3">
+                <span
+                  class="purecounter"
+                  data-purecounter-start="0"
+                  data-purecounter-end="65200"
+                  >0</span
+                >
+                <h4>فروش روزانه</h4>
+              </div>
+            </div>
+            <div class="col">
+              <div class="shadow p-3 rounded-3">
+                <span
+                  class="purecounter"
+                  data-purecounter-start="0"
+                  data-purecounter-end="7560"
+                  >0</span
+                >
+                <h4>کارکنان</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- counters -->
+      <!-- footer : -->
+<section id="footer" class=" text-light mt-5" style="background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+">
+  <div class="container-fluid ">
+    <div class="container">
+      <div class="d-flex">
+        <div style="width: 60%;" class="mt-4">
+        <h1 class="lalezar">تماس با ما</h1>
+        <p class="lalezar">پیامتو برام ارسال کن :</p>
+        <input type="text" placeholder="نام" style="display: block;" class="mt-2 w-100px">
+        <input type="text" placeholder=" نام خانوادگی" style="display: block;" class="mt-2 w-100px" >
+<textarea name="" id="" cols="47" rows="8" class="mt-2 w-160px"></textarea>
+        <button class="btn btn-light btn-send1" style="display: block;">ارسال</button>
+        </div>
+        <div style="width: 30%;" class="mt-4">
+        <h1 class="lalezar fs24px">راه های ارتباطی با ما</h1>
+        <div class="row-socials d-flex  justify-content-around fs-3 mx-auto" style="width: 70%;">
+          <div class="col-insta"><a href="https://www.instagram.com/amirkvni/" style="text-decoration: none;color: white;"><i class="fa-brands fa-instagram"></i></a></div>
+          <div class="col-whatsapp"><a href="#"style="text-decoration: none;color: white;"><i class="fa-brands fa-whatsapp"></i></a></div>
+          <div class="col-telegram"><a href="https://t.me/amirkvni"style="text-decoration: none;color: white;"><i class="fa-brands fa-telegram"></i></a></div>
+        </div>
+        <div class="row-phone d-flex align-items-center mx-auto justify-content-around" style="width: 45%;">
+          <div>
+        <i class="fa-solid fa-phone-flip fs-4"></i></div>
+        <div>
+          <p class="fs-5 fw-bold ">09162035987</p>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- footer -->
+    <!-- bootstrap js : -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- carousel : -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel();
+      });
+    </script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        rtl: true,
+        loop: true,
+        margin: 10,
+        nav: false,
+        dots:false,
+        responsive: { 0: { items: 2 }, 600: { items: 3 }, 1000: { items: 4 } },
+      });
+    </script>
+     <!-- purecounterjs : -->
+     <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+     <script>
+       new PureCounter();
+     </script>
+  </body>
+</html>
